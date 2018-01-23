@@ -1,12 +1,12 @@
-##### 1. 背景
+### 1. 背景
 
 对于键盘党来说，AutoHotkey 简直是必备神器，自从用上了就离不开了。当然再锋利的刀刃，也要看你会不会使，AutoHotkey的脚本语言/语法设计的是真的烂。可一旦一个顺手的脚本写成了，你就再也离不开它了。
 
-##### 2. 安装AutoHotkey
+### 2. 安装AutoHotkey
 
 下载地址：[AutoHotkey](https://autohotkey.com/)
 
-##### 3. 第一个脚本
+### 3. 第一个脚本
  1. 使用顺手的编辑器编写第一个脚本，文件命名为`temp.ahk`
 ```ahk
 ; 按下 Win+N 时，打开记事本
@@ -14,7 +14,7 @@
 ```
 安装好AutoHotkey之后，双击文件`temp.ahk`，系统托盘便出现了AutoHotkey的小图标，这时脚本已经生效了，按下`Win+N`可以看到记事本启动。
 
-##### 4. 是时候提高一波生产力了
+### 4. 是时候提高一波生产力了
 脚本命名为`keys.ahk`
 * 快捷运行/停止**网易云音乐**
 ```ahk
@@ -134,8 +134,12 @@ if(WinActive("ahk_class Chrome_WidgetWin_1")){
 return
 ```
 
-##### 5. 设置开机运行
+### 5. 设置开机运行
  1. 右键该脚本，创建快捷方式
- 2. 
-##### 6. 更多用法有待挖掘
-##### 7. Github地址
+ 2. 将快捷方式移动到windows启动目录
+*注：*Win+R打开运行，输入`shell:startup`即打开启动目录
+
+### 6. 更多用法有待挖掘
+
+### 7. Github地址备用
+[MyAHKScript](https://github.com/sukaiyi/MyAHKScript)
